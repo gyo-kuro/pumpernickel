@@ -1,0 +1,66 @@
+	body {
+		background-color:#ffffff;
+		background-image:url({image:background});
+		background-attachment:fixed;
+		margin:0;
+		word-wrap:break-word;
+		font-size: 10px;
+		font-family: Consolas, Calibri, Arial, Liberation Sans;
+	}
+
+	a {
+		color:#ffffff;
+		text-decoration:none;
+	}
+
+	.maincube {
+		background-color:#f4f4f4;
+		width:500px;
+		height:500px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:250px;
+		padding: 6px 6px 6px 6px;
+	}
+
+	.blockcube {
+		background-color:#ffffff;
+		font-size:50px;
+		text-align:center;
+		width:60px;
+		height:60px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.extable {
+		border-spacing: 4px;
+
+	}
+
+	.excell {
+		background-color:#ffc4d9;
+		color:#ffffff;
+		height:241px;
+		width:241px;
+		-moz-transition-duration: 0.5s;
+		-o-transition-duration: 0.5s;
+		-webkit-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+		text-align:center;
+		vertical-align:middle;
+	}
+
+	.excell:hover {
+		background-color:#ff8bb4;
+		-moz-transition-duration: 0.5s;
+		-o-transition-duration: 0.5s;
+		-webkit-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+	}
+
+	.mailer {
+		align:center;
+		margin-left:auto;
+		margin-right:auto;
+	}
